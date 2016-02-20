@@ -22,5 +22,12 @@ $(document).ready(function(){
             return $(this).parent().find('.registerForm').html();
         }
     })
+    $('#userBtn').popover({
+        html: true,
+        placement: "bottom",
+        content: function (){
+            return $(this).parent().find('.userInfo').html();
+        }
+    })
 
 });

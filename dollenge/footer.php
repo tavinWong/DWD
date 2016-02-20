@@ -3,7 +3,7 @@
         <!--1-->
         <div class = "col-sm-2 wider">
             <p class="header">Fundings</p>
-            <hr></hr>
+            </hr>
             <p>apply a funding</p>
             <p>see all fundings</p>
             <p>funding history</p>
@@ -11,7 +11,7 @@
         <!--2-->
         <div class = "col-sm-2 wider">
             <p class="header">Fundings</p>
-            <hr></hr>
+            </hr>
             <p>apply a funding</p>
             <p>see all fundings</p>
             <p>funding history</p>
@@ -19,7 +19,7 @@
         <!--3-->
         <div class = "col-sm-2 wider">
             <p class="header">Fundings</p>
-            <hr></hr>
+            </hr>
             <p>apply a funding</p>
             <p>see all fundings</p>
             <p>funding history</p>
@@ -27,7 +27,7 @@
         <!--4-->
         <div class = "col-sm-2 wider">
             <p class="header">Fundings</p>
-            <hr></hr>
+            </hr>
             <p>apply a funding</p>
             <p>see all fundings</p>
             <p>funding history</p>
@@ -35,7 +35,7 @@
         <!--5-->
         <div class = "col-sm-2 wider">
             <p class="header">Fundings</p>
-            <hr></hr>
+            </hr>
             <p>apply a funding</p>
             <p>see all fundings</p>
             <p>funding history</p>

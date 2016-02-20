@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<?php session_start()?>
-<?php include "login.php" ?>
+<?php
+include ("php/login.php");
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
