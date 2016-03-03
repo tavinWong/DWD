@@ -1,0 +1,98 @@
+.profile-large{
+	width: auto;
+    margin: 0;
+    font-size: 36px;
+}
+.profile{
+	color: #fff;
+}
+.profile-text{
+	position: relative;
+}
+.myphoto{
+	border-radius: 50%;
+	height: 150px;
+	margin: auto;
+}
+.profile-block{
+	border: 1px solid #fff;
+	color: inherit;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    margin: 15px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.profile p{
+    margin: 0;
+}
+.profile img{
+    margin-bottom: 5px;
+}
+.block-right{
+  display: block;
+  width: 20%;
+  float: right;
+}
+/***my action***/
+.myaction{
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    background: rgba(0,0,0,.2);
+}
+.paddingside{
+    padding:0 9px;
+}
+.paddingaction{
+    padding: 0 2%;
+}
+.number{
+    position: absolute;
+    z-index: 20;
+}
+.editBtn{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    position:relative;
+    float: left;
+    width: 100%;
+    display:block;
+    text-decoration: none;
+    padding:10px 10px;
+    background-color: rgba(73, 143, 225, 0.8);
+    border: solid 1px #4a90e2;
+}
+.editBtn:hover, .editBtn:focus, .editBtn:active{
+    background-color: rgba(35, 100, 175, 0.8);
+    color:#fff;
+    text-decoration: none;
+}
+.giveupBtn{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    position:relative;
+    float: left;
+    width: 100%;
+    display:block;
+    text-decoration: none;
+    padding:10px 10px;
+    background-color: rgba(208, 1, 27, 0.8);
+    border: solid 1px #d0021b;
+}
+.giveupBtn:hover, .giveupBtn:focus, .giveupBtn:active{
+    background-color: rgba(179, 8, 29, 0.8);
+    color:#fff;
+    text-decoration: none;
+}
+.marginslight{
+    margin-bottom: 5px;
+}

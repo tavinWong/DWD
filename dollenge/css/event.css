@@ -1,0 +1,81 @@
+.container-video{
+	overflow: hidden;
+	height:350px;
+}
+.container-video img{
+    top: 0;
+    left: 0;
+    max-width: 960px;
+}
+
+.smallBtn{
+	width: 100px;
+}
+.action-title{
+	font-size: 36px;
+	font-weight: 500;
+}
+.money{
+	font-size: 32px;
+}
+.money2{
+	font-size: 20px;
+	margin-left: -15px;
+}
+.titles1{
+	font-size: 36px;
+	font-weight: 500;
+}
+.titles2{
+	font-size: 36px;
+	font-weight: 500;
+	margin-left: -15px;
+}
+.small-title{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: -15px;
+	opacity: 0.7;
+}
+.small-title2{
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px auto 0px -15px;
+}
+.text{
+	font-size: 20px;
+	opacity: 0.7;
+}
+.text2{
+	font-size: 14px;
+	opacity: 0.7;
+}
+.bar{
+	margin-left: -15px;
+}
+.progress{
+	border-radius: 10px;
+}
+.description{
+	max-width: 860px;
+	margin: 0px auto;
+}
+.center {
+  width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.total{
+	margin-top: 10px;
+}
+.link{
+	opacity: 0.7;
+}
+.progress2{
+	height: 14px;
+}
+.action-pic{
+	margin: 15px 15px 15px 0px;
+	width: 100%;
+}

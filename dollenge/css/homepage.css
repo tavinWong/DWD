@@ -1,0 +1,292 @@
+body {
+  background-color: #9b9b9b;
+}
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+/* Remove the navbar's default margin-bottom and rounded borders 
+-----------------------------------------------------------------*/ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    
+}
+.loginBtn{
+    color: #fff;
+    margin-top: 5px;
+  background-color: #e46e6e;
+  font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    position:relative;
+    float: left;
+    display:block;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.loginBtn:hover, .loginBtn:focus, .loginBtn:active{
+    background-color: #f4756c;
+    color:#fff;
+    text-decoration: none;
+}
+.logo{
+  height: 40px;
+  margin-top: 5px;
+}
+/* Carousel 
+------------------------------------------------------------*/
+.carousel {
+  height: 500px;
+  max-width: 960px;
+  margin: auto;
+}
+.carousel-caption {
+  margin: 51px auto 30px;
+  bottom: auto;
+}
+
+
+/* Declare heights because of positioning of img element 
+-------------------------------------------------------------*/
+.carousel .item {
+    min-height: 500px;
+    background-color: #777;
+    overflow: hidden;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 960px;
+    height: 500px;
+    margin: auto;
+}
+.carousel-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.428571;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.carousel-button:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(252, 148, 148, 0.4);
+}
+.carousel-button2:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(245, 165, 35, 0.4);
+}
+.carousel-button3:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(74, 144, 226, 0.4);
+}
+.carousel h1{
+	font-size: 60px;
+	font-weight: bold;
+	margin: 30px auto;
+}
+.carousel p{
+	font-size: 18px;
+	margin: 30px auto;
+}
+/*Actions
+-------------------------------------------------------*/
+.container-fluid{
+  padding: 30px;
+  max-width: 960px;
+  margin: auto;
+  background-color: #fff;
+}
+.titles{
+	overflow: auto;
+	margin: 20px 0;
+}
+.marginzero{
+    margin: 0;
+}
+.container-fluid h2{
+	float: left;
+	width: auto;
+	line-height: 2;
+}
+.col-sm-4{
+  max-width: 590px;
+}
+.morebtn{
+	float: right;
+	display: inline-block;
+  padding: 0 12px;
+  margin: 11px 30px;
+  line-height: 2;
+	color: inherit;
+	text-decoration: none;
+	border: solid 0.5px #ddd;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.morebtn:hover{
+	text-decoration: none;
+}
+.container-fluid h3{
+	color: inherit;
+	font-size: 24px;
+	margin: 5px auto;
+	font-weight: 500;
+}
+.container-fluid p{
+	color: inherit;
+}
+.org-link{
+	text-decoration: none;
+	color: #9b9b9b;
+}
+.postby{
+	float: right;
+}
+.action-text{
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+}
+/**progress bar attributes**/
+.progress{
+	margin-bottom: 0;
+}
+.mintgreen{
+	background-color: #50e3c2;
+}
+.lemonyellow{
+   background-color: rgba(247, 231, 27, 0.7);
+}
+.lightgreen{
+  background-color: rgba(183, 232, 134, 0.8);
+}
+.transparent-bar{
+  background: rgba(255,255,255,.1);
+  border: 1px solid;
+}
+/**------------**/
+.container-fluid span{
+	color: inherit;
+  margin-right: 20%;
+}
+.block{
+  display: block;
+  width: 29%;
+  float: left;
+  margin-left: 4%;
+}
+.display-block{
+  display: block;
+}
+.donatebtn{
+	background-color: #f6b241;
+	font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  padding: 0 12px;
+  line-height: 2;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  margin: 15px auto;
+}
+.donatebtn:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(246, 178, 65, 0.72);
+}
+/*Apply for a finding*/
+.locationFixed{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 100;
+}
+/*Funding Group
+---------------------------------------------------------------*/
+.bg-pink{
+  background-color: #fc9494;
+  color: #fff;
+}
+.addpadding{
+  text-align: left;
+  padding:10px 15px;
+  height: auto;
+}
+.actionbtn{
+  background-color: #50e3c2;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  padding: 0 12px;
+  line-height: 2;
+  color: #4a4a4a;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+}
+.actionbtn:hover{
+  text-decoration: none;
+  color: #4a4a4a;
+  background-color: rgba(80, 227, 194, 0.72);
+}
+.marginbottom{
+  margin-bottom: 30px;
+}
+/* Footer 
+-------------------------------------------------------------------*/
+footer {
+  padding: 25px;
+  color: #fff;
+}
+.bg-grey{
+  background-color: #9b9b9b;
+}
+hr{
+  color: #fff;
+}
+.wider{
+  margin-left: 2%;
+}
+.header{
+  font-size: 18px;
+}
+.notes{
+  color: #fff;
+  margin-right: 1%;
+  font-size: 12px;
+}
+.line{
+  size:1px;
+  color:#fff;
+  width:100%;
+}
+.footer-text{
+  font-size: 14px;
+  font-weight: 200;
+}
